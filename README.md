@@ -51,10 +51,10 @@ TWRP Device tree for the Samsung Galaxy A01 (android 10 , 11 and android 12)
 $ repo init --depth=1 -u https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git -b twrp-12.1
 
 # Clone common tree repo
-$ git clone https://github.com/SamsungSDM439/twrp_samsung_device_439_common device/samsung/sdm439-common
+$ git clone https://github.com/smiley9000/twrp_device_samsung_sdm439 device/samsung/sdm439-common
 
 # Clone m01q tree repo
-$ git clone https://github.com/SamsungSDM439/twrp_samsung_device_439_common device/samsung/a01q
+$ git clone  https://github.com/smiley9000/twrp_recovery_device_samsung_a01q device/samsung/a01q
 
 # Sync
 $ repo sync --no-repo-verify -c --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune -j`nproc`
