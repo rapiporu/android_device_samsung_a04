@@ -15,10 +15,10 @@
 #
 
 # Bootloader
-DEVICE_PATH  := device/samsung/a01q
+DEVICE_PATH  := device/samsung/a04
 
 # Architecture
-TARGET_OTA_ASSERT_DEVICE := a01q
+TARGET_OTA_ASSERT_DEVICE := a04
 
 # Inherit from common sdm439-common
 -include device/samsung/sdm439-common/BoardConfigCommon.mk
