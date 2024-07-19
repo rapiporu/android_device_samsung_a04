@@ -15,7 +15,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := a01q
+PRODUCT_RELEASE_NAME := a04
 
 # Inherit from common AOSP config
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -34,8 +34,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/sdm439-common/recovery/root,recovery/root)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_a01q
-PRODUCT_DEVICE := a01q
+PRODUCT_NAME := twrp_a04
+PRODUCT_DEVICE := a04
 PRODUCT_MODEL := SM-A015F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
